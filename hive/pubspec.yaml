@@ -1,0 +1,32 @@
+name: tomics_medium_code
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Add the following lines to your pubspec.yaml
+  hive:
+  hive_flutter:
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  # Add the following lines to your pubspec.yaml
+  hive_generator:
+  build_runner:
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
