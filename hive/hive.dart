@@ -37,7 +37,6 @@ box.get('my_key_3');  // returns null
 box.get('my_key_3', defaultValue: 'my_default_value'); 
 
 /// Snap 5 - Delete entry from our box
-
 box.delete('my_key_2');
 
 // Checks if box has this key
