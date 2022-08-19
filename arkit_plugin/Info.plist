@@ -1,0 +1,6 @@
+<!--
+Add the following lines to the Info.plist file in the root of your project
+-->
+<string>Describe why your app needs AR here.</string> 
+<!--Replace with your own descprition below-->
+<key>NSCameraUsageDescription</key>
