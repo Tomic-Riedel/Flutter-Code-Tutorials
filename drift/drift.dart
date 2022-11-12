@@ -61,6 +61,8 @@ LazyDatabase _openConnection() {
   });
 }
 
+/// Snap 6 - Modifying the Database
+
 @DriftDatabase(tables: [Todos, Categories])
 class TutorialDatabase extends _$TutorialDatabase {
   TutorialDatabase() : super(_openConnection());
